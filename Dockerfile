@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.11-slim
 
 # pip 경고 억제 환경 변수 설정
 ENV PIP_ROOT_USER_ACTION=ignore
